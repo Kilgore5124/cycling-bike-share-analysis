@@ -1,4 +1,12 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Data files
 *.csv
 *.xlsx
 .DS_Store
 Thumbs.db
+
+# VS Code
+.vscode/
