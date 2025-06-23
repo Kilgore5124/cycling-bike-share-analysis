@@ -1,3 +1,12 @@
+/*
+ * File: 02_duplicate_removal.sql
+ * Author: Charles Kilgore
+ * Description: Identifies duplicate ride_id values and removes them, keeping the first instance by start time.
+ * Input Table: cleaned_Tripdata
+ * Output Table: cleaned_Tripdata (overwritten)
+ * Last Updated: 2025-06-22
+ */
+
 -- 02_duplicate_removal.sql
 -- Step 2: Detect and remove duplicate ride_id records
 
