@@ -1,28 +1,37 @@
-# cycling-bike-share-analysis
+# 🚲 Cycling Bike-Share Analysis
 
-This project analyzes historical trip data from the Cyclistic bike-share program to provide business insights and recommendations for improving rider engagement and membership growth.
+This project analyzes historical trip data from the **Cyclistic** bike-share program in Chicago to uncover user behavior patterns and offer data-driven business recommendations.
 
-## Dataset
-Stored in Google BigQuery under the dataset: `cyclistic-analysis-461901.bike_rides`
+## 📁 Project Structure
 
-## Project Structure
+| File                           | Description                                                 |
+|--------------------------------|-------------------------------------------------------------|
+| `sql/01_data_cleaning.sql`     | Removes rows with NULLs in key fields.                     |
+| `sql/02_duplicate_removal.sql` | Identifies and removes duplicate ride IDs.                 |
+| `sql/03_final_cleaning.sql`    | Filters invalid ride durations.                            |
+| `sql/04_summary_statistics.sql`| Calculates key usage and duration metrics.                 |
+| `sql/05_visualization_queries.sql` | Prepares data for Tableau dashboards.                |
+| `insights_and_recommendations.md` | Summary of findings and business suggestions.         |
 
-| File                            | Description |
-|---------------------------------|-------------|
-| `01_data_cleaning.sql`          | Removes rows with NULLs in key fields to ensure clean initial data. |
-| `02_duplicate_removal.sql`      | Identifies and removes duplicate ride IDs. |
-| `03_final_cleaning.sql`         | Filters out invalid ride durations and finalizes the cleaned dataset. |
-| `04_summary_statistics.sql`     | Generates ride count and duration statistics by member type. |
-| `05_visualization_queries.sql`  | Prepares queries used for Tableau dashboards. |
-| `insights_and_recommendations.md` | Summarizes project findings and data-driven recommendations. |
+## 📊 Tableau Dashboard  
+[View Dashboard](https://public.tableau.com/app/profile/charles.kilgore/viz/CyclingDataAnalysisCapstone2024-2025-CharlesKilgore/CyclisticDataAnalysisCapstoneRiderBehaviorBusinessInsights)
 
-## Tools Used
+## 🛠 Tools Used
 - Google BigQuery (SQL)
 - Tableau Public
-- Excel (Exploratory)
+- Excel
+- GitHub
 
-## Summary
-The analysis reveals distinct behavioral patterns between casual and member riders and provides actionable strategies to convert casual users into loyal members.
+## ✅ Summary of Insights
+- Members account for most rides (~3.3M vs ~2M casual).
+- Casual riders ride longer and favor weekends.
+- Members ride more evenly across the week.
+- Casual riders prefer electric bikes; members prefer classic.
 
-## Author
+## 💡 Business Recommendations
+1. Launch weekend membership promotions for casual users.
+2. Deploy more electric bikes in tourist zones.
+3. Offer loyalty perks to members for weekday riding.
+
+## 🧑‍💻 Author
 Charles Kilgore
