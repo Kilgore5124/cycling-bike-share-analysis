@@ -1,3 +1,12 @@
+/*
+ * File: 03_final_cleaning.sql
+ * Author: Charles Kilgore
+ * Description: Filters out rows with invalid timestamps or ride durations (e.g., zero or negative duration).
+ * Input Table: cleaned_Tripdata
+ * Output Table: cleaned_tripdata_v2
+ * Last Updated: 2025-06-22
+ */
+
 -- 03_final_cleaning.sql
 -- Step 3: Final data cleaning to remove invalid ride durations
 
