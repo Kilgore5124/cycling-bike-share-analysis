@@ -1,3 +1,12 @@
+/*
+ * File: 04_summary_statistics.sql
+ * Author: Charles Kilgore
+ * Description: Generates ride counts and ride duration statistics by rider type using cleaned data.
+ * Input Table: cleaned_tripdata_v2
+ * Output: Summary metrics for business analysis
+ * Last Updated: 2025-06-22
+ */
+
 -- 04_summary_statistics.sql
 -- Summary statistics and aggregates from cleaned data
 
