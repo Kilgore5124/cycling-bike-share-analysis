@@ -1,3 +1,12 @@
+/*
+ * File: 01_data_cleaning.sql
+ * Author: Charles Kilgore
+ * Description: Removes rows with NULL values in critical fields from the raw trip data.
+ * Source Table: combined_tripdata_copy
+ * Output Table: cleaned_Tripdata
+ * Last Updated: 2025-06-22
+ */
+
 -- 01_data_cleaning.sql
 -- Step 1: Remove rows with NULL values in critical fields from the raw trip data.
 -- Source Table: combined_tripdata_copy
