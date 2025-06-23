@@ -20,7 +20,6 @@ Stored in Google BigQuery under the dataset: `cyclistic-analysis-461901.bike_rid
 - Google BigQuery (SQL)
 - Tableau Public
 - Excel (Exploratory)
-- Markdown for documentation
 
 ## Summary
 The analysis reveals distinct behavioral patterns between casual and member riders and provides actionable strategies to convert casual users into loyal members.
