@@ -14,7 +14,7 @@ This project analyzes historical trip data from the **Cyclistic** bike-share pro
 | `insights_and_recommendations.md` | Summary of findings and business suggestions.         |
 
 ## 📊 Tableau Dashboard  
-[View Dashboard](https://public.tableau.com/app/profile/charles.kilgore/viz/CyclingDataAnalysisCapstone2024-2025-CharlesKilgore/CyclisticDataAnalysisCapstoneRiderBehaviorBusinessInsights)
+[View Dashboard](https://public.tableau.com/app/profile/charles.kilgore/viz/CyclingDataAnalysisCapstone2024-2025-CharlesKilgore/CyclingDataAnalysisCapstoneRiderBehaviorBusinessInsights)
 
 ## 🛠 Tools Used
 - Google BigQuery (SQL)
