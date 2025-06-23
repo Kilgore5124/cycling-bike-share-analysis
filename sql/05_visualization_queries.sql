@@ -1,3 +1,12 @@
+/*
+ * File: 05_visualization_queries.sql
+ * Author: Charles Kilgore
+ * Description: Prepares analysis queries for Tableau visualizations, including ride frequency, duration, and type.
+ * Input Table: cleaned_tripdata_v2
+ * Output: Aggregated datasets for visual reporting
+ * Last Updated: 2025-06-22
+ */
+
 -- 05_visualization_queries.sql
 -- Data preparation queries for Tableau visualizations
 
